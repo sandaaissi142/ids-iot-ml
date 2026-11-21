@@ -1,0 +1,19 @@
+Accuracy : 0.9793
+F1 macro : 0.9590
+
+              precision    recall  f1-score   support
+
+    backdoor      0.998     1.000     0.999       484
+        ddos      0.975     0.982     0.979      2510
+         dos      0.988     0.976     0.982      2895
+   injection      0.987     0.967     0.977      3970
+        mitm      0.693     0.846     0.762       208
+      normal      0.997     0.993     0.995      4813
+    password      0.993     0.990     0.991      3071
+  ransomware      0.996     0.992     0.994       247
+    scanning      0.952     0.970     0.961      1121
+         xss      0.935     0.969     0.951      1748
+
+    accuracy                          0.979     21067
+   macro avg      0.951     0.968     0.959     21067
+weighted avg      0.980     0.979     0.980     21067
