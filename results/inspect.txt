@@ -1,0 +1,35 @@
+Valeurs manquantes (NaN) par colonne :
+Series([], dtype: int64)
+
+Colonnes texte : nombre de valeurs uniques et part de '-' :
+             colonne  uniques  part_tiret_%
+        weird_notice        2          99.8
+        http_version        2          99.9
+               proto        3           0.0
+              dns_RD        3          83.4
+         ssl_resumed        3          99.8
+     ssl_established        3          99.8
+              dns_AA        3          83.4
+              dns_RA        3          83.4
+http_orig_mime_types        3         100.0
+          weird_addl        3          99.9
+        dns_rejected        3          83.4
+         http_method        4          99.9
+         ssl_version        4          99.8
+          ssl_issuer        5         100.0
+         ssl_subject        6         100.0
+          ssl_cipher        6          99.8
+             service        9          62.6
+                type       10           0.0
+http_resp_mime_types       10          99.9
+          weird_name       11          99.8
+    http_trans_depth       11          99.9
+          conn_state       13           0.0
+     http_user_agent       35          99.9
+              src_ip       51           0.0
+            http_uri       86          99.9
+           dns_query      726          83.5
+              dst_ip      753           0.0
+
+Colonnes numeriques constantes (inutiles) :
+[]
